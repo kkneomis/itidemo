@@ -1,0 +1,22 @@
+[
+  {
+    "id":"ITI-000",
+    "courseid":1,
+    "jobtitle": "Python Programmer",
+    "jobslocal": 6000,
+    "jobstotal": 240000,
+    "jobpay" : "$83,000 per year",
+    "paylink" : "http://www.payscale.com/research/US/Skill=Python/Salary",
+    "joboutlook": "Job Outlook, 2014-24 : 18% (Much faster than average)",
+    "joblink": "http://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2"},
+  {
+    "id":"ITI-001",
+    "courseid":2,
+    "jobtitle": "Java Programmer",
+    "jobslocal": 6000,
+    "jobstotal": 240000,
+    "jobpay" : "$83,000 per year",
+    "paylink" : "http://www.payscale.com/research/US/Skill=Python/Salary",
+    "joboutlook": "Job Outlook, 2014-24 : 18% (Much faster than average)",
+    "joblink": "http://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2"}
+]

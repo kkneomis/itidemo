@@ -1,0 +1,24 @@
+[
+  {
+    "id":1,
+    "courseid":"ITI-000",
+    "crn": "123789",
+    "type":"Class",
+    "time": "6:30 pm - 9:30 pm",
+    "days": "MW",
+    "where": "Gaithersburg Bus Training Ctr 406",
+    "daterange": "Jun 20,2016 - Jun 29,2016",
+    "scheduletype": "Lecture",
+    "instructors": "TBA"},
+  {
+    "id":2,
+    "courseid":"ITI-001",
+    "crn": "123889",
+    "type":"Class",
+    "time": "6:30 pm - 9:30 pm",
+    "days": "TR",
+    "where": "Gaithersburg Bus Training Ctr 406",
+    "daterange": "Jun 21,2016 - Jun 30,2016",
+    "scheduletype": "Lecture",
+    "instructors": "TBA"}
+]
