@@ -99,7 +99,7 @@ this.handlers={"translated.owl.carousel refreshed.owl.carousel":t.proxy(function
         loop:true,
         margin:0,
         autoplay:true,
-        autoplayTimeout:3000,
+        autoplayTimeout:9000,
         autoplayHoverPause:true,
         nav:false,
         dots:false,

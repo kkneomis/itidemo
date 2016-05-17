@@ -223,7 +223,7 @@
 		dragEndSpeed: false,
 
 		responsive: {},
-		responsiveRefreshRate: 200,
+		responsiveRefreshRate: 900,
 		responsiveBaseElement: window,
 		responsiveClass: false,
 
