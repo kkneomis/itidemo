@@ -42,8 +42,9 @@ a:focus,
 }
 .welcomebox-wrapper,
 .welcomebox{
-    background-color: #253C51 !important;
+    /*background-color: #253C51 !important;*/
     border-color: #253C51 !important;
+    color: #253C51 !important;
 }
 
 .button--wayra:hover {
