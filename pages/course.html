@@ -25,9 +25,16 @@
     <!-- CUSTOM STYLES -->
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
 
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-36021144-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
 </head>
 <body>
@@ -190,11 +197,11 @@
             <% _.each(sections, function(section) { %>
             <tr>
                 <td><%= section.crn %></td>
-                <td><%= section.time %></td>
                 <td><%= section.days %></td>
-                <td><%= section.where %></td>
-                <td><%= section.daterange %></td>
-                <td><%= section.scheduletype %></td>
+                <td><%= section.except %></td>
+                <td><%= section.campus %> <%= section.room %></td>
+                <td><%= section.start%> to <%= section.end%></td>
+                <td><%= section.sessions %></td>
                 <td><%= section.instructors %></td>
                 <td><input type="submit" value="Register" class="btn btn-primary btn-block" /></td>
             </tr>
@@ -206,6 +213,11 @@
         <section class="section paralbackground banner" style="background-image:url('../images/stock/course.jpg');" data-img-width="2400" data-img-height="907" data-diff="100">
             <div class="overlay" >
                 <div class="page-title" id="courseTitle">
+                    <div class="container clearfix">
+                        <div class="title-area pull-left" >
+                            <h2 class="white">No such course<small class="white"></small></h2>
+                        </div><!-- /.pull-right -->
+                    </div>
                 </div><!-- end page-title -->
             </div>
         </section><!-- end section -->
@@ -238,11 +250,11 @@
                 <table class="table table-hover">
                     <tr>
                         <th>CRN</th>
-                        <th>Time</th>
                         <th>Days</th>
+                        <th>Except</th>
                         <th>Location</th>
                         <th>Date Range</th>
-                        <th>Type</th>
+                        <th>Sessions</th>
                         <th>Instructor(s)</th>
                         <th></th>
                     </tr>
@@ -356,12 +368,10 @@
                 default: {
                     id : null,
                     title : null,
+                    subjcode : null,
                     description : null,
                     classhours : null,
-                    subjcode : null,
-                    prereq : null,
-                    textbook: null,
-                    joblink : null
+                    prereq : null
                 },
 
                 initialize: function(){
@@ -388,15 +398,14 @@
 
             myCourses.Models.Section = Backbone.Model.extend({
                 default: {
-                    id : null,
                     courseid : null,
                     crn : null,
-                    type : null,
-                    time : null,
+                    start : null,
+                    end : null,
                     days : null,
-                    where : null,
-                    daterange : null,
-                    scheduletype : null,
+                    except : null,
+                    campus : null,
+                    room : null,
                     instructors: null
                 },
                 initialize: function(){

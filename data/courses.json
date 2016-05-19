@@ -1,32 +1,754 @@
 [
   {
-    "id":"ITI-000",
-    "title":"MS Excel Level I",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "classhours":15,
-    "subjcode":"ITI-000",
-    "prereq":"Basic computer familiarity",
-    "textbook": "Microsoft Excel Unleashed",
-    "jobtitle": "Python Programmer",
-    "jobslocal": 6000,
-    "jobstotal": 240000,
-    "jobpay" : "$83,000 per year",
-    "paylink" : "http://www.payscale.com/research/US/Skill=Python/Salary",
-    "joboutlook": "Job Outlook, 2014-24 : 18% (Much faster than average)",
-    "joblink": "http://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2"},
+    "id": "ITI105",
+    "title": "AdobePhotoshop I—FoundationSkills",
+    "subjcode": "ITI105",
+    "description": "Learn to modify images in Adobe CC; define image properties; work with selections, layers, and colors; make tonal/color adjustments; adjust image lightness and darkness; resize images; repair image flaws using the clone tool, healing brushes, and red-eye tool; and more. This course also covers a brief comparison between photo tools in Photoshop and Lightroom, and a brief look at how Photoshop works with InDesign and Dreamweaver in creating books and websites",
+    "prereq": "Prerequisite: Computer Basics, File Management Skills, or equivalent experience.",
+    "classhours": 15
+  },
   {
-    "id":"ITI-001",
-    "title":"MS Excel Level II",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "classhours":15,
-    "subjcode":"ITI-001",
-    "prereq":"Excel Level I or equivalent experience",
-    "textbook": "Microsoft Excel Unleashed",
-    "jobtitle": "VBA Programmer",
-    "jobslocal": 6000,
-    "jobstotal": 240000,
-    "jobpay" : "$83,000 per year",
-    "paylink" : "http://www.payscale.com/research/US/Skill=Python/Salary",
-    "joboutlook": "Job Outlook, 2014-24 : 18% (Much faster than average)",
-    "joblink": "http://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2"}
+    "id": "ITI211",
+    "title": "Angular JS",
+    "subjcode": "ITI211",
+    "description": "Do you have some familiarity with using HTML, CSS and Javascript to build a web page or website? Would you like to take your skills to the next level of front-end development? In this class, we'll start with a basic HTML page and build a working web application that uses AngularJS (an open-source Javascipt-based web application framework) to provide interactivity. In addition to learning how to incorporate Angular, you'll also learn how to use Git for version tracking (a must for anyone doing software development today), how to do responsive web app layout with the Twitter Bootstrap framework, and how to use the Google maps API.",
+    "prereq": "Prerequisite: HTML 5, CSS, JavaScript Programming ,or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI273",
+    "title": "Amazon Web Services (AWS)",
+    "subjcode": "ITI273",
+    "description": "Learn how to host, support, configure, backup and maintain servers and AWS services using the AWS Elastic Cloud Compute (EC2) platform. Learn how to migrate existing applications to AWS; manage the flow of data; select appropriate AWS services; and understand AWS pricing and security. This course is for administrators, solution architects and developers interested in using AWS services, and those interested in becoming AWS network administrators.",
+    "prereq": "Prerequisite: IT Fundamentals or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI038",
+    "title": "C# Foundation Skills -",
+    "subjcode": "ITI038",
+    "description": "This course is an overview of the C# programming languages using the Visual Studio Integrated Development Environment (IDE) to develop, compile, and debug program code. Topics include an overview of the C# syntax, programming basics, control structures, exception handling and object-oriented fundamentals.",
+    "prereq": "Prerequisite: Programming Fundamentals and C++, or equivalent experience.",
+    "classhours": 21
+  },
+  {
+    "id": "CMP152",
+    "title": "C++--Level I",
+    "subjcode": "CMP152",
+    "description": "This course is an overview of the C# programming languages using the Visual Studio Integrated Development Environment (IDE) to develop, compile, and debug program code. Topics include an overview of the C# syntax, programming basics, control structures, exception handlingand object-oriented fundamentals.",
+    "prereq": "Prerequisite: Programming Fundamentals and C++, or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "CMP153",
+    "title": "C++--Level II",
+    "subjcode": "CMP153",
+    "description": "This course is a continuation of the C++ programming language introductory course, covering additional general programming topics using the C++ language. Topics include function programming and data passing, pointers, Microsoft's development tools for debugging programs, the preprocessor, aggregate data types, class definitions, and programming operator overloading.",
+    "prereq": "Prerequisite: C++—Level I or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI277",
+    "title": "CCNA Complete",
+    "subjcode": "ITI277",
+    "description": "This accelerated class is designed to take you through all four courses of the Cisco Networking Academy CCNA Routing and Switching Program and prepare you for the Cisco Certified Network Associate (CCNA) certification. Achieving the CCNA certification will help you get hired and succeed in jobs related to networking computers and devices. Career pathways include: network technician, support engineer, network administrator, network designer, and network engineer. Montgomery College participates in the Cisco Networking Academy Program and has Cisco lab facilities that are second to none in the region. Cisco labs are required and are held on Saturdays. Students who register for this class must register also for the lab sessions, course ITI300. This is an exciting, challenging and rewarding course. For more information: http://cms.montgomerycollege.edu/iti/computernetworks/ccnacomplete.html",
+    "prereq": "Prerequisite: Knowledge of networking infrastructure or equivalent experience.",
+    "classhours": 100
+  },
+  {
+    "id": "ITI300",
+    "title": "CCNA Complete Lab",
+    "subjcode": "ITI300",
+    "description": "This is the required lab for the Cisco CCNA Complete class. Students registered in this class must be also registered for ITI277.",
+    "prereq": 0,
+    "classhours": 40
+  },
+  {
+    "id": "ITI284",
+    "title": "Cloud - Introduction",
+    "subjcode": "ITI284",
+    "description": "The new age of computing has meant we barely ever store things on our devices anymore, and instead we keep our beloved photos, documents and videos in the ubiquitous cloud. However, cloud computing takes many forms and it can get pretty confusing to figure out how to get the most of each service. From OneDrive to iCloud, Google drive to Netflix and iTunes, the course covers the biggest and best of cloud computing and will teach you the best way to manage these online services. This course is intended for computer users who are comfortable navigating the Internet.",
+    "prereq": "Prerequisite: Computer Basics, File Management Skills, or equivalent experience",
+    "classhours": 8
+  },
+  {
+    "id": "ITI261",
+    "title": "Computer Aided Design II: 3D Drawings - NEW",
+    "subjcode": "ITI261",
+    "description": "Obtain a solid foundation in the 3D Modeling Workspace, techniques for creating and editing 3D objects, and preparing 3D models for 3D printing. You will create virtual 3D models of an apartment, a fictitious mechanical part, and a surfboard. After completing this course, you will be able to create AutoCAD 3D objects, edit AutoCAD 3D objects, and prepare an AutoCAD 3D model for 3D printing. You must bring the textbook and a USB drive with at least 4 GB of memory to the first class.",
+    "prereq": "Prerequisite: Computer-Aided Design I or equivalent experience",
+    "classhours": 30
+  },
+  {
+    "id": "CMP941",
+    "title": "Computer Basics (10hrs)",
+    "subjcode": "CMP941",
+    "description": "Learn basic computer operations and how to use web browsers.:",
+    "prereq": "Prerequisite: Keyboarding skills. Introduction to Keyboarding can be taken concurrently with Computer Basics.",
+    "classhours": 10
+  },
+  {
+    "id": "CMP076",
+    "title": "Computer-AidedDesign (CAD)",
+    "subjcode": "CMP076",
+    "description": "Get acquainted with the fundamentals of AutoCAD 2015 software. This class will provide a solid foundation in the essentials of the drawing environment, basic draw and modify commands, support tools, and printing capabilities. At the conclusion, you will have the basic knowledge required to create, edit, and print clean, accurate drawings.",
+    "prereq": "Working with Windows 7 or equivalent experience. Familiarity with drafting techniques.",
+    "classhours": 30
+  },
+  {
+    "id": "CMP868",
+    "title": "Creating Your Personal and Small Business Websites",
+    "subjcode": "CMP868",
+    "description": "Are you interested in creating a personal or business website on your own without having to spend a lot of money for software or professional help? In this introductory course you will learn how to design web pages using HTML and free web authoring tools. Topics will include every phase of the web design process—planning, designing, and implementing. You will also learn about choosing the right Internet Service Provider (ISP), creating web accounts, and uploading web pages using ftp.",
+    "prereq": "Prerequisite: Windows or File Management Skills or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI172",
+    "title": "Cybersecurity—WebSecurityI",
+    "subjcode": "ITI172",
+    "description": "This is an introductory course in penetration testing. Learn to identify web applications with vulnerabilities and to exploit those vulnerabilities the same way that hackers do. Learn to use the tools used by hackers, penetration testers and security researchers to ascertain if your application is vulnerable to attack. Explore sql injections, cross-site scripting, cross site request forgery and more. Learn to modify web requests, cookies and remote databases. This course is for web developers, programmers, site administrators and those interested in cybersecurity.",
+    "prereq": "Prerequisite: Basic understanding of how the web works and what cybersecurity is.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI173",
+    "title": "Cybersecurity—WebSecurityII",
+    "subjcode": "ITI173",
+    "description": "This is an intermediate course in penetration testing. Learn to use automated security scanners to assess web applications with vulnerabilities and to exploit those vulnerabilities in batches. Explore more complex techniques for exploiting web vulnerabilities. This course is for web developers, programmers, site administrators and those interested in cybersecurity.",
+    "prereq": "Prerequisite: Cybersecurity I or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI257",
+    "title": "Data Analysis I: Data Analysis with Excel - NEW",
+    "subjcode": "ITI257",
+    "description": "Learn big data analytics directly in Excel 2010 or 2013. Power Pivot is free Excel add-in developed by Microsoft. It is designed to deal with large complex data sets. No programming required! Always working on real examples - the course is specifically based on real world use cases. No long slides, but rather hands on examples. Learn how to work with large datasets, combining data from totally different data sources, use effective best practices on working with pivot tables and pivot charts. Learn how create interactive dashboards, and build custom dashboards to answer business questions. All material used in lectures is available for download. Students are highly encouraged to experiment with data themselves.",
+    "prereq": "Prerequisite: Excel III or equivalent experience",
+    "classhours": 15
+  },
+  {
+    "id": "ITI247",
+    "title": "Data Analysis II: Data Analysis with Python - NEW",
+    "subjcode": "ITI247",
+    "description": "Learn data analysis for scientific computing, research, and web analytics using Python. Create, manipulate, process, clean and analyze data types, matrices, spreadsheets, relational databases. Plot data and use (NumPy), IPython and SciPy data packages. This course is designed for data analysts programmers, web developers, research scientists, Computer Science specialists, healthcare and clinical data analysts.",
+    "prereq": "Prerequisite: Python Programming. Knowledge of SQL and relational databases or equivalent experience recommended.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI293",
+    "title": "Digital Forensics",
+    "subjcode": "ITI293",
+    "description": "Digital Forensics is a popular field with many opportunities for current and aspiring IT Professionals. Understanding how an attacker accessed or exploited a resource is just as important as understanding how to configure security controls. The course aims to provide an overview of what digital forensics is; the timeline of an incident, key forensic artifacts and investigation steps, and tips on how to track attackers real-time.",
+    "prereq": "Prerequisite: Linux I , Excel I,II,III, and knowledge of Windows OS or equivalent experience",
+    "classhours": 18
+  },
+  {
+    "id": "ITI252",
+    "title": "Facebook & Twitter for Business Success",
+    "subjcode": "ITI252",
+    "description": "Learn how to effectively manage a Facebook site and a Twitter account to market your business. Learn about effective Facebook site management; new techniques and emerging trends; tools; plug-ins; and third party applications customized for your business, non-profit, or association use. This course also explains how to best use Twitter. Learn how to create a great user name and profile, define your brand personality, and begin tweeting. We will also cover how to integrate twitter into Facebook and how to manage your daily efforts, including how to monitor Twitter and schedule tweets. Plus, get tips for extending special offers on Twitter and tracking your results with analytics.",
+    "prereq": 0,
+    "classhours": 6
+  },
+  {
+    "id": "CMP226",
+    "title": "File Management Skills",
+    "subjcode": "CMP226",
+    "description": "Develop expertise in file management, create folders and subfolders with Windows Explorer, and find and copy files. File management skills are required for students who take MS Office, web development, or programming courses.",
+    "prereq": "Prerequisite: Computer Basics or equivalent experience, and Introduction to Keyboarding, or keyboarding skills.",
+    "classhours": 5
+  },
+  {
+    "id": "ITI254",
+    "title": "Hadoop I: Data Science and Big Data Analytics",
+    "subjcode": "ITI254",
+    "description": "Learn and have a basic understanding of major components of Hadoop Eco-system. This course will focus on HDFS, YARN, MapReduce, Hive and SQOOP. Get the experience you need to get started applying Hadoop technology to your own problems. This is hands-on class. Exercises cover basic hadoop cluster administration; write MapReduce programs; write Hive Queries; use SQOOP to transfer data between RDBMS and HDFS.",
+    "prereq": "Prerequisite: Java programming or equivalent experience; basic Linux Administration knowledge.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI255",
+    "title": "Hadoop II: Data Science and Big Data Analytics",
+    "subjcode": "ITI255",
+    "description": 0,
+    "prereq": 0,
+    "classhours": 15
+  },
+  {
+    "id": "ITI239",
+    "title": "HTML5 I",
+    "subjcode": "ITI239",
+    "description": "Learn the basic building blocks of designing and creating websites optimized for modern computers, tablets, and mobile phones using HTML5 and CSS. Topics include basic HTML5 elements and attributes, including hyperlinks, images, and tables. Advanced techniques to effectively create multiple column layouts using new HTML5 structural elements; new Cascading Style Sheets (CSS3) styles to format and control placement of HTML5 elements such as rounded corners, shadow effects, and color gradients; advanced CSS3 media queries to handle a variety of devices including screen, printer, tablet, and mobile phone; and integration of scripts into a web page. The Dreamweaver Integrated Development Environment (IDE) will be used to design and develop a website. Web hosting fundamentals and effective use of meta tags are also covered.",
+    "prereq": "Prerequisites: Working with Windows, File Management Skills or equivalent experience; familiarity with Internet and Keyboarding Skills.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI238",
+    "title": "HTML5 II",
+    "subjcode": "ITI238",
+    "description": "Enhance and optimize your website using HTML5, CSS, JavaScript and the jQuery libraries. Topics include advanced HTML5 elements and attributes for forms. JavaScript functions and the jQuery libraries are also covered. The jQuery Core library and jQuery UI library is also covered. Advanced jQuery techniques and JavaScript Plugins to effectively use Slideshows, Multimedia Views, Accordions, and advanced HTML5 Application Programming Interfaces (APIs) will also be covered. Responsive Web Design (RWD) is also covered. The Dreamweaver Integrated Development Environment (IDE) will be used for all website design and development.",
+    "prereq": "Prerequisite: HTML5 Level I or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI256",
+    "title": "HTML5 III",
+    "subjcode": "ITI256",
+    "description": "Learn the foundational building blocks for designing and creating HTML5, mobile-first web sites optimized for modern computers, tablets, and mobile devices using Responsive Web Design (RWD) principles. Topics include: layout using fluid, proportion-based grids, and flexible images. You will also develop a RWD compliant website based on CSS3, JavaScript, or Stylus Frameworks. Frameworks to be covered include: Bootstrap, Cascade Framework, Fluidable. Ink, Responsive Boilerplate, Semantic UI, Foundation, Kickoff, Pure, Jeet, and many more.",
+    "prereq": "Prerequisite: HTML5 Level II or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "CMP628",
+    "title": "Introduction to Keyboarding",
+    "subjcode": "CMP628",
+    "description": "Learn correct keyboarding techniques and improve your typing speed.",
+    "prereq": 0,
+    "classhours": 18
+  },
+  {
+    "id": "ITI274",
+    "title": "Introduction to SharePoint Technologies I",
+    "subjcode": "ITI274",
+    "description": "SharePoint 2013 / 365 professionals are in very high demand in today’s job market. This course introduces the basic functionality of technologies from an end-user perspective. This course includes a basic overview of commonly used SharePoint features and capabilities. This course also provides a “hands-on” approach to learn the most commonly used functions of SharePoint with all Microsoft office applications (Word, Excel, PowerPoint, and Access) to prepare you to enter the job marked with a solid knowledge of SharePoint capabilities.",
+    "prereq": "Prerequisite: File Management Skills or equivalent experience. No prior programming language is required",
+    "classhours": 15
+  },
+  {
+    "id": "ITI275",
+    "title": "Introduction to SharePoint Technologies II",
+    "subjcode": "ITI275",
+    "description": "SharePoint 2013 / 365 professionals, power users, and administrators are in very high demand in today’s job market. This course introduces “power-user” functions and a comprehensive overview of SharePoint administration. In this course you will learn how to develop custom SharePoint sites and Apps without prior knowledge of any programming language. It will provide the basic necessary skills to create and administer SharePoint solutions to support entering the job marked as a “power-user” or SharePoint administrator.",
+    "prereq": "Prerequisite: Introduction to SharePoint Technologies I or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI294",
+    "title": "ITI Networking Academy (94hrs)",
+    "subjcode": "ITI294",
+    "description": "This is a comprehensive program that will help you build a solid foundation in computer networking. This instructor-led, hands-on course provides you with the entry level skills necessary to start a career in Information Technology. This program will prepare you to get certified in the recognized CompTIA Network+ and Security+ certifications and will provide career advice and resume building workshops that will help you achieve your employment goals. Textbook access and purchase information will be available at the first class.",
+    "prereq": 0,
+    "classhours": 94
+  },
+  {
+    "id": "ITI283",
+    "title": "Java Web Development BootCamp",
+    "subjcode": "ITI283",
+    "description": "Are you interested in building professional web applications with Java but don’t know where to start? Learn to develop professional web applications using the most popular programming language in the world. This 35- hour coding bootcamp provides students an immersive course in dealing with the Java EE framework, along with its associated technologies. Perfect for the student with at least basic programming experience in Java or C, the bootcamp will teach you how to develop complete web applications in the Java language with Oracle as the database. By the end of the course, each student will have developed two complete web applications: an online messaging app like Twitter and an online survey tool. This course will cover: Servlets, JSP, Expression Language, JSTL, JPQL, Sessions/Cookies, HTML/CSS/Javascript and the Bootstrap Framework.",
+    "prereq": "Prerequisite: Programming knowledge with a basic understanding of an object oriented language: Java, C#, VB.NET or C++. Experience developing web applications is not required.",
+    "classhours": 35
+  },
+  {
+    "id": "CMP950",
+    "title": "Java—Level I",
+    "subjcode": "CMP950",
+    "description": "This course is for anyone who wants to learn how to program with Java. Topics include Java language essentials, Java Software Development Kit (J2SDK), and development of simple web applications and stand-alone applications in Java. This course includes an overview of object-oriented programming.",
+    "prereq": "Prerequisite: Programming Fundamentals or equivalent experience, plus knowledge of the Web and HTML.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP123",
+    "title": "Java—Level II",
+    "subjcode": "CMP123",
+    "description": "This course covers the practical concepts and skills needed for developing real-world Java applications. You will learn how to develop Windows-based and GUI-based Java applications using features such as event listeners, layout managers, list boxes, combo boxes, radio buttons, check boxes, menus, pop-up menus, and images. Both AWT and Swing packages will be covered and used in developing web applications and stand-alone applications. This course also introduces the applet life cycle, exception handling, arrays, vectors, string classes, and JAR files.",
+    "prereq": "Prerequisite: JavaLevel I or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": 0,
+    "title": 0,
+    "subjcode": 0,
+    "description": 0,
+    "prereq": 0,
+    "classhours": 0
+  },
+  {
+    "id": "CMP128",
+    "title": "Java—Level III",
+    "subjcode": "CMP128",
+    "description": "This course presents an in-depth coverage of advanced Java skills. Topics include file operations, object serialization, database manipulation, and multithreading. Learn how to work with text files, binary files, directories, databases, and threads. Gain a set of professional Java skills that you can use for developing business applications using features such as JDBC, directory manipulation, object serialization, random-access files, and multithreading.",
+    "prereq": "Prerequisite: Java—Levels I and II or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI202",
+    "title": "Java--Level IV:Web Development",
+    "subjcode": "ITI202",
+    "description": "The objective of this course is to leverage the java programming language to meet one of the major needs of today’s technical market: web application development. Learn the principals of enterprise applications and how to apply these concepts in developing browser-based applications using java technology. This course reviews various components of the Java Enterprise Edition (J2EE) framework that are typically desired in today’s industry; these areas include JSPs, servlets, Tomcat, MVC, cookies, sessions, java beans, and JSTL.",
+    "prereq": "Prerequisite: Java I, II, and III or equivalent experience with the Java Standard Edition (J2SE) framework, plus HTML5 or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI230",
+    "title": "JavaScript Patterns (15hrs)",
+    "subjcode": "ITI230",
+    "description": "Take your JavaScript to the next level. Learn how to create structured, maintainable applications using JavaScript patterns designed to solve common programming problems. Learn JavaScript best practices. Understand and apply closures, prototyping, encapsulation and modularization to make your code easier to re-use and maintain. Learn browser-specific patterns to improve DOM scripting and remote scripting. Examine loading strategies for high-performance web applications.",
+    "prereq": "Prerequisite: HTML5 and JavaScript Programming, or equivalent experience",
+    "classhours": 15
+  },
+  {
+    "id": "ITI228",
+    "title": "JavaScript Programming (15hrs)",
+    "subjcode": "ITI228",
+    "description": "JavaScript is the world’s most widely used and flexible programming/scripting language. Learn to program JavaScript for practical business purposes, including web site design and trouble-shooting, form validation, database manipulation, and software development. Learn to use functions, variables, data types and arrays, string patterns, numbers, dates, and times. Learn how and when to program repetitive tasks and loops. Validate forms with JavaScript and jQuery validation plug-ins. Learn how to write efficient code, use external JavaScript files, and trouble-shoot and debug JavaScript with Firebug.",
+    "prereq": "Prerequisite: Programming Fundamentals or equivalent knowledge of basic object-oriented programming (OOP).",
+    "classhours": 15
+  },
+  {
+    "id": "ITI229",
+    "title": "Jquery with JavaScript (15hrs)",
+    "subjcode": "ITI229",
+    "description": "Use JQuery, a JavaScript library, to add interesting, interactive features to your web site. Topics will include JQuery set-up, installation, and use; using jQuery action/reaction events; and show/hide. Learn to quickly add animations and effects, image slide shows, photo galleries, and rollovers. Add a JQuery navigation bar. Enhance and validate forms, and learn other JQuery web features. JavaScript fundamentals-keywords, concepts, and syntax-will be covered so students understand how to call and use JQuery features using the basic JavaScript needed.",
+    "prereq": "Prerequisite: HTML5 Level I or equivalent experience",
+    "classhours": 15
+  },
+  {
+    "id": "ITI027",
+    "title": "LinkedIn®:Create and Effectively Manage a Linked In Site",
+    "subjcode": "ITI027",
+    "description": "LinkedIn is a social collaboration tool focused on helping business professionals, consultants, freelancers, job seekers, and others develop a network of connections. Learn how to design, modify, and effectively manage a LinkedIn site in an instructor-led computer lab. Topics include effective profile setup, networking techniques, market-specific connections, (e.g., real estate, graphic design, IT, healthcare, etc.), job searches, recruiting and HR uses, résumé design, blog marketing techniques, and other uses. LinkedIn tools, techniques, and emerging trends will also be covered.",
+    "prereq": 0,
+    "classhours": 6
+  },
+  {
+    "id": "CMP212",
+    "title": "Linux/Unix-Level I",
+    "subjcode": "CMP212",
+    "description": "Linux, an open source implementation of UNIX, is a multi-user, multi-tasking operating system that powers much of the Internet, including services such as DNS, e-mail, and the World Wide Web. Discover the fundamentals of Linux and learn the essentials of the file system, command line interface, and basic utilities. By the end of the course, you will be able to manage an account and be functional and productive on UNIX-based operating systems. This is a hands-on course using the popular Ubuntu(ubuntu.com) Linux distribution.",
+    "prereq": "Prerequisite: Keyboarding skills and some knowledge of operating systems.",
+    "classhours": 12
+  },
+  {
+    "id": "CMP213",
+    "title": "Linux/Unix--Level II",
+    "subjcode": "CMP213",
+    "description": "With Linux, a freely available version of the UNIX operating system, it has become easier than ever to use UNIX at home or in small office environments as well as the Enterprise. This intermediate course in the Linux/UNIX operating system provides the tools you need to work more efficiently in a Linux/UNIX environment. You will also be introduced to shell scripts, networking, graphical user interfaces using X-Windows, and advanced utilities. This is a hands-on course using the popular Ubuntu(ubuntu.com) Linux distribution.",
+    "prereq": "Prerequisite: Linux/Unix—Level I or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "CMP214",
+    "title": "Linux/Unix—System Administration Introduction",
+    "subjcode": "CMP214",
+    "description": "Linux and UNIX power most of the most powerful supercomputers in the world today (top500.org). This introductory course in Linux/UNIX system administration emphasizes administration of systems rather than their use from an end-user’s point of view. Topics covered include system installation and configuration, user and group administration, service management, software installation, package management, and security. This is a hands-on course using the popular Ubuntu(ubuntu.com) Linux distribution.",
+    "prereq": "Prerequisite: Linux/Unix--Levels I and II or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI223",
+    "title": "MCSA: Installing and Configuring WindowsServer 2012 (70-410)",
+    "subjcode": "ITI223",
+    "description": "Receive hands-on instruction and practice installing and configuring Windows Server 2012, including Windows Server 2012 R2. This course is part one in a series of three courses that provides the skills and knowledge necessary to implement a core Windows Server 2012 infrastructure in an enterprise environment. This course maps directly to the Microsoft Certified Solutions Associate (MCSA) Exam 70-410: Installing and Configuring Windows Server 2012 exam objectives, which is the first of three exams required for the MCSA: Windows Server 2012 certification. This course primarily covers the initial implementation and configuration of core services such as Networking, Storage, Active Directory Domain Services (ADDS), Group Policy, File and Print services, and Hyper-V. Labs and test preparation will be integrated into the course.",
+    "prereq": "Prerequisite: Microsoft Certified Specialist in Windows 10 or equivalent experience.",
+    "classhours": 42
+  },
+  {
+    "id": "ITI287",
+    "title": "Meteor Development - Introduction",
+    "subjcode": "ITI287",
+    "description": "Learn to build a database-powered web application using only javascript and HTML, with the Meteor framework. This is a great entry point for web developers looking to learn full stack development with a new exciting technology. Meteor allows you to develop applications for the web, Android devices and iOS. You can code once and run EVERYWHERE. Take this class and you’ll be able to build and deploy a working application. Whether you want to build your own application or improve your marketable skills, Meteor is a great development tool to learn.",
+    "prereq": "Prerequisite: HTML I, JavaScript or equivalent experience",
+    "classhours": 12
+  },
+  {
+    "id": "ITI302",
+    "title": "Microsoft Certified Specialist in Windows 10",
+    "subjcode": "ITI302",
+    "description": "Get trained for entry-level jobs in Information Technology! This course will prepare you for the Microsoft certification exam 70-697: Configuring Windows Devices - CertifiedMicrosoft Specialist in Windows 10. Obtain theknowledge and skills required to install and configureWindows 10desktops and devices in a Windows Server domain corporate environment. Learn how to install and customizeWindows 10operating systems and apps, configure local and remote network connectivity and storage, and to configure data security, device security, and network security. This course is also intended to provide skills for Enterprise Desktop/Device Support Technicians (EDSTs) who provide Tier 2 support to users who run Windows 10 desktops and devices within a Windows domain environment in medium to large enterprise organizations.",
+    "prereq": "Prerequisite: Networking Fundamentals or equivalent experience, and knowledge of and experience with the Windows operating system.",
+    "classhours": 60
+  },
+  {
+    "id": 0,
+    "title": 0,
+    "subjcode": 0,
+    "description": 0,
+    "prereq": 0,
+    "classhours": 0
+  },
+  {
+    "id": "ITI153",
+    "title": "MS Access—Level I",
+    "subjcode": "ITI153",
+    "description": "Learn basic features of Access 2013. Learn database concepts, the environment, and help systems; design and create databases. Work with tables, fields, and records; sort and filter data; set field properties and data entry rules. Learn basic queries, forms, and reports. Students pursuing the Microsoft Office Specialist Certification must take MS Access I, II and III.",
+    "prereq": "Prerequisite: Computer Basics, Windows or File Management Skills or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI154",
+    "title": "MS Access—Level II",
+    "subjcode": "ITI154",
+    "description": "Learn how to normalize data, manage table relationships, and enforce referential integrity; work with Lookup fields and subdatasheets; create join queries, calculated fields, and summary values; add objects to forms. Create advanced form types; print reports and labels. Students pursuing the Microsoft Office Specialist Certification must take MS Access I, II and III.",
+    "prereq": "Prerequisite: MS Access- Level I or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "CMP963",
+    "title": "MS Access—Level III",
+    "subjcode": "CMP963",
+    "description": "Learn how to query with SQL; create crosstab, parameter, and action queries; create macros; import and export; and link database objects. Work with XML documents and use hyperlink fields. Learn database management using resources and protecting databases. Students pursuing the Microsoft Office Specialist Certification must take MS Access I, II and II.",
+    "prereq": "Prerequisite: MS Access- Levels I and II or equivalent experience.",
+    "classhours": 10
+  },
+  {
+    "id": "ITI080",
+    "title": "MS Excel—Level I",
+    "subjcode": "ITI080",
+    "description": "Learn the basic functions of Excel 2013. Learn spreadsheet terminology, windows components, help system, navigate worksheets and workbooks, enter and edit text, values, formulas, and pictures, and save. Work with absolute and relative references, and ranges, rows, and columns. Create, modify charts. Basic formatting/ printing. Students pursuing the Microsoft Office Specialist Certification must take MS Excel I, II and III.",
+    "prereq": "Prerequisite: Computer Basics and Windows or File Management Skills or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI091",
+    "title": "MS Excel—Level II",
+    "subjcode": "ITI091",
+    "description": "Create and use multiple worksheets and workbooks. Work with advanced formatting options- styles, and themes. Create outlines and subtotals, create and apply cell names, work with tables. Save workbooks as Web pages, insert and edit hyperlinks, and share workbooks by email. Auditing and protection are covered. Students pursuing the Microsoft Office Specialist Certification must take MS Excel I, II and III",
+    "prereq": "Prerequisite: MS Excel-Level I or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI092",
+    "title": "MS Excel—Level III",
+    "subjcode": "ITI092",
+    "description": "Work with advanced formulas, lookup functions. Learn data validation; how to import/ export data. Work with PivotTables and PivotCharts. Use analytical features -Goal Seek and Analysis tool, run and record macros. Students pursuing the Microsoft Office Specialist Certification must take MS Excel I, II and II.",
+    "prereq": "Prerequisite: MS Excel-Level II or equivalent experience.",
+    "classhours": 10
+  },
+  {
+    "id": "CMP227",
+    "title": "MS Outlook",
+    "subjcode": "CMP227",
+    "description": "Learn to create e-mail accounts, manage e-mail messages, and track contacts and distribution lists in MS Outlook 2013.  Learn how to create appointments and events, keep yourself organized, and how to personalize your inbox in Outlook",
+    "prereq": "Prerequisite: Computer Basics and Introduction to Keyboarding or equivalent experience.",
+    "classhours": 8
+  },
+  {
+    "id": "CMP954",
+    "title": "MS PowerPoint—Introduction",
+    "subjcode": "CMP954",
+    "description": "Learn PowerPoint 2013 interface, opening and saving a presentation, working with slides, formatting text and text boxes, using templates and themes variations. Learn to insert images, clip art, shapes, and to format images. Learn SmartArt and WordArt features. Learn incorporating and formatting tabular data, animation tools.",
+    "prereq": "Prerequisite: Computer Basics, Windows or File Management Skills or equivalent experience.",
+    "classhours": 10
+  },
+  {
+    "id": "CMP985",
+    "title": "MS SQL Server for Developers I",
+    "subjcode": "CMP985",
+    "description": "MSSQL Server is in widespread use by companies to develop and manage large enterprise databases. Learn how MSSQL Server uses and handles Structured Query Language (SQL). Learn how to manage relational databases using MSSQL Server 2014 Management Studio; use SQL queries and subqueries to insert, update, and delete data; and work with data types and functions. Data manipulation and aggregation will also be covered.",
+    "prereq": "Prerequisite: Proficiency with Windows is required. MS Access—Level I and knowledge of Access relational databases, or equivalent experience is strongly recommended.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP867",
+    "title": "MS SQL Server for Developers II",
+    "subjcode": "CMP867",
+    "description": "Learn advanced MSSQL Server skills. Topics include scripts, code scripts, stored procedures, functions, triggers, cursors, and managing database security. Learn how to use MSSQL Server Management Studio to create and manage stored procedures, functions, and triggers using the .NET Common Language Runtime (CLR) with SQL Server databases. Students must have some training or experience working with the SQL language.",
+    "prereq": "Prerequisite: Prerequisite: MSSQL Server for Developers I or equivalent experience with relational database systems is required. Familiarity with Visual Studio or Microsoft SQL Server Management Studio is recommended.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP860",
+    "title": "MS Word and Excel Foundation Series",
+    "subjcode": "CMP860",
+    "description": "Novice users and those looking for formal training in MS Word and Excel will explore topics needed in the workplace or for personal business. Learn how to format and edit documents and spreadsheets, create labels, use shortcuts to work efficiently, use mathematical formulas in Excel spreadsheets, and create charts and graphs for presentations.",
+    "prereq": "Prerequisite: Computer Basics, Introduction to Keyboarding, Working with Windows or File Management Skills or equivalent experience.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP944",
+    "title": "MS Word—Intermediate",
+    "subjcode": "CMP944",
+    "description": "Learn to apply and modify styles and themes. Learn to insert and modify fields, SmartArt, WordArt, shapes, and watermarks. Create advanced documents with sections and mail merges, use advanced features for revisions and comments, how to manage and finalize documents, and preview as a web page. Students pursuing the Microsoft Office Specialist Certification must take MS Word I, II and III.",
+    "prereq": "Prerequisite: MS Word-Introduction or equivalent experience.",
+    "classhours": 10
+  },
+  {
+    "id": "ITI201",
+    "title": "MS Word—Introduction",
+    "subjcode": "ITI201",
+    "description": "Learn basic features of MS Word. Learn terminology, Word's window component and Help system, and how to navigate documents. Learn to enter, edit, and format text, and save documents in various formats. Move and copy data, create/modify tables, insert, modify graphics, proof and print documents. Students pursuing the Microsoft Office Specialist Certification must take MS Word I, II and III.",
+    "prereq": "Prerequisite: Computer Basics, and Windows or File Management Skills or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "CMP846",
+    "title": "MSProject—Introduction",
+    "subjcode": "CMP846",
+    "description": "Lean how to effectively plan, implement, and control projects using Microsoft Project 2013. In this course, you’ll learn how to think through and organize your project details, plan a schedule, sequence tasks, produce a baseline, assign resources and costs, and revise your project plan. This course is recommended for business owners, team members, and project managers.",
+    "prereq": "Prerequisite: Understanding of project management concepts, Windows or equivalent experience, and basic knowledge of Microsoft Word and Excel.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI291",
+    "title": "Networking Fundamentals",
+    "subjcode": "ITI291",
+    "description": "Build a solid foundation in computer networking concepts. Discover the building blocks of modern networks and how they function, and find out how to put the many pieces together to build a functional and secure network. The information you learn in this training serves as the foothold for your career in information technology. This course is a prerequisite for the Network+ course.",
+    "prereq": "Prerequisite: Computer Basics, File Management Skills, or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI241",
+    "title": "Network+Certification Training and Exam Prep",
+    "subjcode": "ITI241",
+    "description": "Over time, the CompTIA Network+ certification has proven to be a must have certification for IT professionals new to networking, as well as seasoned professionals. Its profile has risen to the point where it is often recommended (or required) by major corporations and government agencies and is a condition of employment. In this course, you will be exposed to the five domains tested in the Network+ exam: network concepts, network installation and configuration, network media and topologies, network management, and network security. Upon completion of this course, you will be prepared to take the Network+ Certification exam.",
+    "prereq": "Prerequisite: Networking Fundamentals, knowledge of operating systems and hardware, or equivalent experience. Textbook access and purchase information will be available at the first class.",
+    "classhours": 42
+  },
+  {
+    "id": "ITI246",
+    "title": "Node, MongoDB, Angular, And Express: Web Application Dev with the MEAN Stack",
+    "subjcode": "ITI246",
+    "description": "Modern web sites demand almost instant delivery of data and applications. Students will learn how to quickly and easily develop web applications using the popular “MEAN stack” of programs - Node.js, MongoDB, AngularJS, and Express. Use Node.js’ JavaScript framework to develop all your server-side code. Design MongoDB NoSQL databases to deliver high performance data in formats compatible with server-side and client-side scripts. Program AngularJS using its MVC framework to handle client-side browser input, manipulate data, and control browser display. Classes will be hands-on, using industry standard tools, including the Node Express editor, and Mongoose to structure and validate MongoDB data.",
+    "prereq": "Prerequisite: HTML5 Level II, JavaScript, or experience with a programming language (PHP, Java, C), or equivalent experience",
+    "classhours": 15
+  },
+  {
+    "id": "ITI267",
+    "title": "Optimizing LinkedIn to Land Your Next Job",
+    "subjcode": "ITI267",
+    "description": "Effectively using LinkedIn is essential in today’s fast-paced, technology driven marketplace. Whether you’re looking to make your next big career move, simply curious about exploring open positions, and/or determined to find your dream job, this interactive work session will help you to turbo-charge your employment search by leveraging the power of LinkedIn for career success and professional development.",
+    "prereq": "Prerequisite: All participants will be expected to have an active personal LinkedIn account. Visit www.linkedin.com to join LinkedIn.",
+    "classhours": 6
+  },
+  {
+    "id": "ITI212",
+    "title": "Oracle Database 12c :Introduction to SQL",
+    "subjcode": "ITI212",
+    "description": "Introduction to SQL training will cover writing subqueries, combine multiple queries into a single query using SET operators and report aggregated data using group functions. This is a hands-on class and is the basis for all Oracle certifications. This introductory class prepares you for exam 1Z0-061, Oracle Database 12C: SQL Fundamentals and can upgrade Oracle database users of previous versions.",
+    "prereq": 0,
+    "classhours": 40
+  },
+  {
+    "id": "ITI215",
+    "title": "Oracle12c: Database Administrator Certified Associate",
+    "subjcode": "ITI215",
+    "description": "Gain a firm foundation in basic administration of Oracle Database 12c. In this class, you will learn how to install and maintain Oracle Database 12c instance. Students gain a conceptual understanding of the Oracle database architecture and how its components work and interact with one another. Learn how to create an operational database and properly manage the various structures in an effective and efficient manner including performance monitoring, database security, user management, and backup/recovery techniques. This course prepares you for Certification Exam 1Z0-062 Oracle Database 12c: Installation and Administration.",
+    "prereq": "Prerequisite for this course is Oracle Database 12c: Introduction to SQL.",
+    "classhours": 39
+  },
+  {
+    "id": "ITI308",
+    "title": "Oracle12c: Database Administrator Certified Professional NEW!!",
+    "subjcode": "ITI308",
+    "description": "Aspiring IT professionals willing to pursue a career in Database Administration using Oracle 12c software.\n This course will prepare you to: Pass the Oracle 12c OCP exam, Work with confidence as a Junior/Mid-Level Database Administrator, Learn Database Administration design, modeling, and implementation, Perform database administration, maintenance, and performance tuning tasks , Hands-on labs simulating Database Administrator daily tasks, Basic operating system concepts necessary to administer the database software",
+    "prereq": 0,
+    "classhours": 42
+  },
+  {
+    "id": "ITI266",
+    "title": "PHP/MYSQL - CMS & WEB MGMT",
+    "subjcode": "ITI266",
+    "description": "Create server-side web applications using PHP and MySQL. Create and manage MySQL databases within the PHP environment. Collect, validate, and store HTML form data. Then, dynamically display server data on web sites, browsers, and in Content Management Systems (CMS) such as WordPress, Drupal, and Joomla. Test PHP applications before uploading to the server. This course is for programmers, web developers, and managers of CMS sites which use a PHP “backbone.”",
+    "prereq": "Prerequisite: Programming Fundamentals and HTML 5, or equivalent experience.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP839",
+    "title": "ProgrammingFundamentals",
+    "subjcode": "CMP839",
+    "description": "This course is designed for people with no prior programming experience. Topics include programming languages (VB.NET, C#, and Java), numbering systems, character sets, constants and variables, and more. This course satisfies the prerequisite for C# Foundation Skills, and JAVA—Level I.",
+    "prereq": "Prerequisite: Proficiency with Windows or File Management Skills or equivalent experience.",
+    "classhours": 18
+  },
+  {
+    "id": "ITI276",
+    "title": "Python Programming",
+    "subjcode": "ITI276",
+    "description": "Learn basic Python. Python is a powerful scripting language that can be used to automate system administration, create powerful web pages, develop mobile applications and more. This course is an introduction to Python and introduces many beginner programming concepts along the way. Learn Python objects, Python Statements and syntax, numbers, strings, lists, numeric types, variables and references, and strings. Topics also include functions, scopes, arguments, advanced functions, module coding and packages.",
+    "prereq": "Prerequisite: Programming Fundamentals or equivalent experience. Experience with an object oriented language such as C++, Java, or C# recommended but not required.",
+    "classhours": 18
+  },
+  {
+    "id": "CMP078",
+    "title": "QuickBooks—Level I",
+    "subjcode": "CMP078",
+    "description": "Learn the fundamentals of using QuickBooks 2015 to track the finances of a small business. Set up a new company; manage bank account transactions; maintain customer, job, and vendor information; manage inventory; generate reports; and use the Company Snapshot window. You will also create invoices and credit memos, write and print checks, add custom fields, set up budgets, and learn how to protect and back up your data.",
+    "prereq": "Prerequisite: Windows and some accounting knowledge or equivalent experience. CPA/CPE accredited.",
+    "classhours": 12
+  },
+  {
+    "id": "CMP080",
+    "title": "QuickBooks—Level II",
+    "subjcode": "CMP080",
+    "description": "Expand your QuickBooks knowledge! Learn how to customize forms, use other QuickBooks accounts, set up accounts to track inventory and track and pay sales tax, do payroll, estimate time and job costs, write letters, and other day to day transactions.",
+    "prereq": "Prerequisite: QuickBooks--Level I, keyboarding skills, and some accounting knowledge or equivalent knowledge. CPA/CPE accredited.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI175",
+    "title": "QuickBooks--Level III",
+    "subjcode": "ITI175",
+    "description": "This course is a step-by-step overview of the payroll processing cycle using QuickBooks. You will learn how to reconcile and record journal entries using Excel and QuickBooks software. In addition to reviewing basic project management payroll and expenses cost accounting concepts, the topics included in the four sessions will feature how to handle manual check disbursement, reconciling payroll bank accounts, and generating Federal and state payroll reports. This course is designed for business owners handling their own payroll process, students seeking employment in payroll accounting, and who need to prepare for the Certified Public Bookkeeper Examination.",
+    "prereq": "Prerequisites: Basic accounting knowledge, MS Excel—Levels I and II, and QuickBooks—Levels I and II, or equivalent experience.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI130",
+    "title": "Revit",
+    "subjcode": "ITI130",
+    "description": "This is a hands-on introduction to building information modeling (BIM) software for architecture. Instruction will focus on how both graphic and non-graphic architectural information for a building is produced through the creation of a single project database represented in a 3D model. Learn user interface: ribbon; become proficient with templates, basic floor plan, and basics of the building model; explore, create, and modify 3D view; use dimensions and constraints; and develop the building model.",
+    "prereq": "Prerequisite: Windows or File Management Skills or equivalent experience. Familiarity with drafting techniques; knowledge of CAD is helpful.",
+    "classhours": 30
+  },
+  {
+    "id": "ITI292",
+    "title": "Rhino 3D Modeling",
+    "subjcode": "ITI292",
+    "description": "Rhino is a 3D-modeling powerhouse, used to design and engineer products ranging from jewelry and furniture to architecture and automobiles. Learn how to build your own 3D models, characters, and prototypes with the NURBS-based modeling tools in Rhino 5.0. In this course you will be able to apply gained experience during the design work in real practice.",
+    "prereq": "Prerequisite: Familiarity with design and drafting techniques, knowledge of AutoCAD preferred but not required.",
+    "classhours": 12
+  },
+  {
+    "id": "ITI203",
+    "title": "Ruby on Rails—Level I",
+    "subjcode": "ITI203",
+    "description": "Learn Ruby on Rails by building your own project: an online marketplace like Etsy or Airbnb from scratch. Learn how to build a two-sided marketplace for buyers and sellers. Enable sellers to upload listings with images, manage their inventory, and charge credit cards. This course is for web developers of all levels who want to learn the basics of building applications with Ruby on Rails, incorporating Twitter Bootstrap, using Git and Github and deploying their application on Heroku.",
+    "prereq": "Prerequisites: Programming Fundamentals and HTML5 – Level I, or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI307",
+    "title": "Security Fundamentals",
+    "subjcode": "ITI307",
+    "description": "This course is designed for students who have no prior knowledge of security and for non-IT managers who need to learn the basics of information security and the security core terminology. This course is also designed for career changers and those who want to start a career in information security and need formal training. You will learn about the most common security threats, gain basic understanding of best security practices, and will learn how to prevent basic computer security problems and risks.",
+    "prereq": "Prerequisites: IT Fundamentals or equivalent experience.",
+    "classhours": 18
+  },
+  {
+    "id": "ITI240",
+    "title": "Security+ Certification Training and Exam Prep",
+    "subjcode": "ITI240",
+    "description": "The demand for IT professionals with security skills and knowledge has never been greater. And one of the most widely sought after certifications for those seeking to either enter or advance in the security field is the CompTIA Security+ (SY0-401). In this course, students will learn the key concepts and skills required to obtain this industry significant certification. The course will cover the Security+ exam’s six testing domains: Network Security, Compliance and Operational Security, Threats and Vulnerabilities, Application, Data and Host Security, Access Control and Identity Management and Cryptography. Upon completion of the course, students will be able to sit for the Security+ certification exam.",
+    "prereq": "Prerequisites: Network+; computer networking concepts or equivalent experience. Textbook access and purchase information will be available at the first class.",
+    "classhours": 40
+  },
+  {
+    "id": "ITI078",
+    "title": "SharePoint for Project Management and Office Administration",
+    "subjcode": "ITI078",
+    "description": "Windows SharePoint Services helps office staff and project managers to share information, foster collaboration, easily organize information, and manage documents. Learn how to create and manage sites and libraries, surveys, discussion boards, and work with wikis and blogs. In addition, information on managing the structure of information, integration with different desktop applications, workflows, and out-of-the-box customization will be covered.",
+    "prereq": "Prerequisite: Windows or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI253",
+    "title": "Social Media for Business Success: Instagram, Pinterest & YouTube",
+    "subjcode": "ITI253",
+    "description": "Instagram, Pinterest, and YouTube are the hottest and fastest growing social networks.Learn how to take advantage of these social networks to engage your audience and grow your business. Build a fun and engaging Instagram account, Increase your brand presence and drive traffic to your site using Pinterest as a marketing platform, and leverage the power of online video to establish and retain an audience. This class will use case studies and interactive exercises.",
+    "prereq": 0,
+    "classhours": 12
+  },
+  {
+    "id": "ITI095",
+    "title": "Software Introductory Series",
+    "subjcode": "ITI095",
+    "description": "Learn the 2013 versions of Microsoft Word, Excel, PowerPoint, and Access. Create and edit attractive business letters, memorandums, and press releases using the new and improved Word 2013 interface. Use PowerPoint templates to create powerful presentation. Build basic and enhanced Excel worksheets with ease using automated Excel features. With Access, a relational database, learn how to create, store, and retrieve records with amazing speed and accuracy. Learn to create tables, Query, and Report Wizards.",
+    "prereq": "Prerequisites: Computer Basics, Windows or File Management Skills or equivalent experience.",
+    "classhours": 40
+  },
+  {
+    "id": "ITI232",
+    "title": "Software Testing & Quality Assurance I",
+    "subjcode": "ITI232",
+    "description": "Learn automated software testing using Selenium. Prototype, develop and deploy automated test scripts and suites using Agile, iterative/spiral, and “waterfall” lifecycles. Learn industry best practices for test planning, design, and execution, including support and integration of test automation through the phases of software projects.",
+    "prereq": "Prerequisite: Programming Fundamentals or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI233",
+    "title": "Software Testing & Quality Assurance II",
+    "subjcode": "ITI233",
+    "description": "Use Selenium WebDriver and Python to deploy repeatable automated tests of websites and website security. Simulate “client side” tests using Selenium WebDriver. Integrate Python scripts, macros, and bindings into WebDriver to enhance control, management, and execution of automated test suites. Learn web site security basics. Implement rigorous automated security testing of website functions, forms, and interfaces.",
+    "prereq": "Prerequisite: Software Testing and Quality Assurance Level I and Python Programming or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI171",
+    "title": "WordPress",
+    "subjcode": "ITI171",
+    "description": "Use WordPress to create or convert websites. The open source content management system is one of the largest user base worldwide. A user friendly CMS for database driven sites including membership sites and blogs. Learn how to customize WordPress to make the site “yours”. Easily add and edit content, create and manage menus, edit and organize images, and manage users. Apply WordPress’ search engine optimization (SEO) features to attract visitors. Topics also include WordPress syntax, the Loop, themes and child themes, developing static pages, custom post types, forms, accessibility, and using Plugins to extend WordPress functions.",
+    "prereq": "Prerequisite: File Management Skills, Working with Windows or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "CMP073",
+    "title": "Working with Windows",
+    "subjcode": "CMP073",
+    "description": "Whether you’re new to computers or have used them in the past, this class will help you become more comfortable using a personal computer (PC) and, more specifically, the Windows 10 interface. This course will help you to define what a PC is, and familiarize you with the Windows 10 user interface and its basic capabilities. In this course, you will explore Windows 10 and learn how to create documents, send email, browse the Internet, and share information between applications and with other users.",
+    "prereq": "Prerequisites: Computer Basics or equivalent experience.",
+    "classhours": 8
+  },
+  {
+    "id": "CMP051",
+    "title": "XML - Introduction",
+    "subjcode": "CMP051",
+    "description": "This course is an overview of core technologies developed for defining XML documents, validating their structure and formatting, and delivering them via the Web. Hands-on activities include building and validating a well-formed XML document, displaying data using extensible styling language-transformation (XSL-T), and formatting that data using cascading style sheets (CSS). All of these technologies will be combined in a final document ready to be delivered via the Web.",
+    "prereq": "Prerequisite: Basic understanding of HTML recommended.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI307",
+    "title": "Security Fundamentals",
+    "subjcode": "ITI307",
+    "description": "This course is designed for students who have no prior knowledge of security and for non-IT managers who need to learn the basics of information security and the security core terminology. This course is also designed for career changers and those who want to start a career in information security and need formal training. You will learn about the most common security threats, gain basic understanding of best security practices, and will learn how to prevent basic computer security problems and risks.",
+    "prereq": "Prerequisite: IT Fundamentals or equivalent experience.",
+    "classhours": 18
+  },
+  {
+    "id": "ITI309",
+    "title": "Introduction to R for Data Analysis",
+    "subjcode": "ITI309",
+    "description": "R is the most popular languages for data analysis, statistical computing and graphics. Learn to manipulate, process, clean and analyze structured data types: matrices, tabular/spreadsheet data, and relational databases, using R. Learn to write code and data analytics using examples in computer labs. This course is designed for data analysts, researchers, web developers, data developers, scientists, students with Computer Science degrees, healthcare data and clinical data analysts.",
+    "prereq": "Prerequisite: Programming Fundamentals, knowledge of SQL databases, or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI312",
+    "title": "Advanced Data Analysis Topics with Excel, Python and R",
+    "subjcode": "ITI312",
+    "description": "Data analysis has become the hot term for people in areas ranging from medical research and politics to marketing. The three most common tools used for doing data analysis are Microsoft Excel, Python and R. Learn how to use these tools for performing tasks including: regression, trend analysis, sensitivity analysis, data fitting, probability density analysis, correlation analysis, and more. The student will have the opportunity to perform each of these tasks using all three tools in our custom labs. This course is designed for data analysts, researchers, web developers, data developers, scientists, students with Computer Science degrees, healthcare data and clinical data analysts.",
+    "prereq": "Prerequisite: Programming Fundamentals, an understanding of basic data analysis, or equivalent experience.",
+    "classhours": 15
+  },
+  {
+    "id": "ITI310",
+    "title": "Entreprise SharePoint Bootcamp",
+    "subjcode": "ITI310",
+    "description": "SharePoint professionals are in very high demand in today’s job market. This weekend, two day “Bootcamp” approach will laser focus students to quickly prepare for immediate new or existing job opportunities. This course includes a hands on overview of SharePoint features and capabilities. After completing this course students will have complete confidence with the most commonly used functions of SharePoint and all Microsoft office applications (Word, Excel, PowerPoint, and Access) to prepare for today’s job market!",
+    "prereq": "Pre-requisite: Basic computer skills, file management skills or equivalent experience. No prior programming language is required",
+    "classhours": 15
+  },
+  {
+    "id": "ITI180",
+    "title": "Knowing Your Camera: Interchangeable Lens Digital Camera",
+    "subjcode": "ITI180",
+    "description": "This class will teach you how to use properly the features and settings on your interchangeable lens camera. Cameras covered are Mirrorless, Nikon, and Canon SLRs; and advanced compact. Learn how to maximize the capabilities of your camera with correct settings for metering, focus, ISO, depth of field, and flash. Composition techniques will be covered. This is a hands-on class. In addition to learning the nuts and bolts of your camera, you will shoot pictures during outdoor lab sessions. The class is led by a professional photographer and expert on cameras. Bring your camera to class and maximize your creativity! No textbook required.",
+    "prereq": 0,
+    "classhours": 12
+  },
+  {
+    "id": "ITI251",
+    "title": "Social Media Marketing & Management - Daytime???",
+    "subjcode": "ITI251",
+    "description": "Social media is no longer a buzzword; it is how business is conducted today. As the number of social platforms increases, there is a greater need to establish an internal and external business strategy, policy and culture to keep pace and build a competitive advantage. Given the expansive selection of social platforms, businesses and individuals are struggling to make sense of it all.",
+    "prereq": 0,
+    "classhours": 12
+  },
+  {
+    "id": "ITI272",
+    "title": "IT Fundamentals - NEW ????",
+    "subjcode": "ITI272",
+    "description": "This course will connect business objectives with social media strategy, platforms and tactics. Through case studies, interactive sessions, and class exercises, students will learn about the latest research and best practices in the industry. Topics to be covered include constructing a strategy, leveraging listening channels, crises and landmines, content development, measurement and ROI, social media platforms and engaging influencers.",
+    "prereq": 0,
+    "classhours": 6
+  },
+  {
+    "id": "ITI185",
+    "title": "Mac OS Basics andFileManagement",
+    "subjcode": "ITI185",
+    "description": "Learn how to get the maximum from your Apple Mac computer. Identify the basic components of the Mac OS while learning file management skills and various applications available on the Mac platform. This course is taught on iMacs and students who have a Mac portable are encouraged to bring it to class. Prerequisites: keyboarding and mouse skills required.",
+    "prereq": 0,
+    "classhours": 8
+  }
 ]
