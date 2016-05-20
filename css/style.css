@@ -1294,7 +1294,6 @@ body.boxed #wrapper {
 }
 
 body.boxed {
-    background: url(upload/bg.jpg) repeat center center scroll;
 }
 
 .loginbox p {
@@ -4869,7 +4868,7 @@ small {
           rgba(0, 0, 0, 0.5)
         ),
         /* bottom, image */
-        url(../upload/girl_on_comp.jpg) no-repeat center center fixed; 
+        url(../images/stock/girl_on_comp.jpg) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;

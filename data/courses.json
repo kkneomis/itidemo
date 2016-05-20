@@ -256,14 +256,6 @@
     "classhours": 15
   },
   {
-    "id": 0,
-    "title": 0,
-    "subjcode": 0,
-    "description": 0,
-    "prereq": 0,
-    "classhours": 0
-  },
-  {
     "id": "CMP128",
     "title": "Java—Level III",
     "subjcode": "CMP128",
@@ -358,14 +350,6 @@
     "description": "Get trained for entry-level jobs in Information Technology! This course will prepare you for the Microsoft certification exam 70-697: Configuring Windows Devices - CertifiedMicrosoft Specialist in Windows 10. Obtain theknowledge and skills required to install and configureWindows 10desktops and devices in a Windows Server domain corporate environment. Learn how to install and customizeWindows 10operating systems and apps, configure local and remote network connectivity and storage, and to configure data security, device security, and network security. This course is also intended to provide skills for Enterprise Desktop/Device Support Technicians (EDSTs) who provide Tier 2 support to users who run Windows 10 desktops and devices within a Windows domain environment in medium to large enterprise organizations.",
     "prereq": "Prerequisite: Networking Fundamentals or equivalent experience, and knowledge of and experience with the Windows operating system.",
     "classhours": 60
-  },
-  {
-    "id": 0,
-    "title": 0,
-    "subjcode": 0,
-    "description": 0,
-    "prereq": 0,
-    "classhours": 0
   },
   {
     "id": "ITI153",
