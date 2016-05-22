@@ -98,16 +98,18 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
                                     <ul class="dropdown-menu show-right">
                                         <li><!----====== drop down search bar ======------>
-                                            <div id="custom-search-input">
-                                                <div class="input-group col-md-12">
-                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." />
-                                                    <span class="input-group-btn">
-                                                        <button class="btn btn-primary btn-lg" type="button">
-                                                            <i class="fa fa-search"></i>
-                                                        </button>
-                                                    </span>
+                                            <form role="search" method="get" id="searchform"  action="../courses.html">
+                                                <div id="custom-search-input">
+                                                    <div class="input-group col-md-12">
+                                                        <input type="text" class="form-control input-lg" placeholder="Search here..." name="search"/>
+                                                        <span class="input-group-btn">
+                                                            <button class="btn btn-primary btn-lg" type="submit">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </form>
                                         </li><!----====== drop down search bar ======------>
                                     </ul>
                                 </li>
@@ -161,9 +163,9 @@
                                         <p>
                                             <strong>Courses:</strong>
                                             <ul class="check">
-                                                <li><a href="#" target="_blank">Programming Fundementals</a></li>
-                                                <li><a href="#" target="_blank">Hadoop I &amp; II - Data Science and Big Data Analytics</a></li>
-                                                <li><a href="#" target="_blank">Data Analysis with Python</a></li>
+                                                <li><a href="../course.html?id=CMP839">Programming Fundementals</a></li>
+                                                <li><a href="../course.html?id=ITI254">Hadoop I &amp; II - Data Science and Big Data Analytics</a></li>
+                                                <li><a href="../course.html?id=ITI247">Data Analysis with Python</a></li>
                                             </ul>
                                         </p>
                                     </div>

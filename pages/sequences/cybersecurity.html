@@ -98,16 +98,18 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
                                     <ul class="dropdown-menu show-right">
                                         <li><!----====== drop down search bar ======------>
-                                            <div id="custom-search-input">
-                                                <div class="input-group col-md-12">
-                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." />
-                                                    <span class="input-group-btn">
-                                                        <button class="btn btn-primary btn-lg" type="button">
-                                                            <i class="fa fa-search"></i>
-                                                        </button>
-                                                    </span>
+                                            <form role="search" method="get" id="searchform"  action="../courses.html">
+                                                <div id="custom-search-input">
+                                                    <div class="input-group col-md-12">
+                                                        <input type="text" class="form-control input-lg" placeholder="Search here..." name="search"/>
+                                                        <span class="input-group-btn">
+                                                            <button class="btn btn-primary btn-lg" type="submit">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </form>
                                         </li><!----====== drop down search bar ======------>
                                     </ul>
                                 </li>
@@ -158,15 +160,16 @@
                                 </div>
                                 <div id="collapse11" class="panel-collapse collapse in">
                                     <div class="panel-body">
-                                        <p class="SpeacialTrackDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet nulla id mauris hendrerit sollicitudin. Vivamus consectetur nisi a nunc rutrum commodo. Vivamus non nisl at diam dapibus scelerisque. Cras eu lectus nulla. Fusce ultricies rhoncus mi in varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis id dictum quam, sit amet viverra leo.</p>
+                                        <p class="SpeacialTrackDescription"></p>
                                         <p>
                                             <strong>Courses:</strong>
                                             <ul class="check">
-                                                <li><a href="#" target="_blank">Programming Fundementals</a></li>
-                                                <li><a href="#" target="_blank">Security Fundementals</a></li>
-                                                <li><a href="#" target="_blank">Cybersecurity - Web Security I and II</a></li>
-                                                <li><a href="#" target="_blank">Network + Certification Training and Exam Prep</a></li>
-                                                <li><a href="#" target="_blank">Security + Certification Training and Exam Prep</a></li>
+                                                <li><a href="../course.html?id=CMP839">Programming Fundementals</a></li>
+                                                <li><a href="../course.html?id=ITI307">Security Fundementals</a></li>
+                                                <li><a href="../course.html?id=ITI172">Cybersecurity - Web Security I</a></li>
+                                                <li><a href="../course.html?id=ITI173">Cybersecurity - Web Security II</a></li>
+                                                <li><a href="../course.html?id=ITI241">Network + Certification Training and Exam Prep</a></li>
+                                                <li><a href="../course.html?id=ITI240">Security + Certification Training and Exam Prep</a></li>
                                             </ul>
                                         </p>
                                     </div>
@@ -180,14 +183,15 @@
                                 </div>
                                 <div id="collapse22" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        <p class="SpeacialTrackDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet nulla id mauris hendrerit sollicitudin. Vivamus consectetur nisi a nunc rutrum commodo. Vivamus non nisl at diam dapibus scelerisque. Cras eu lectus nulla. Fusce ultricies rhoncus mi in varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis id dictum quam, sit amet viverra leo.</p>
+                                        <p class="SpeacialTrackDescription"></p>
                                         <p>
                                             <strong>Courses:</strong>
                                             <ul class="check">
-                                                <li><a href="#" target="_blank">CCNA Complete</a></li>
-                                                <li><a href="#" target="_blank">MCSA: Installing and Configuring Windows Server 2012 (70-410)</a></li>
-                                                <li><a href="#" target="_blank">Microsoft Certified Speciaist in Windows 10</a></li>
-                                                <li><a href="#" target="_blank">Software Testing & Quality Assurance I and II</a></li>
+                                                <li><a href="../course.html?id=ITI277">CCNA Complete</a></li>
+                                                <li><a href="../course.html?id=ITI223">MCSA: Installing and Configuring Windows Server 2012 (70-410)</a></li>
+                                                <li><a href="../course.html?id=ITI302">Microsoft Certified Speciaist in Windows 10</a></li>
+                                                <li><a href="../course.html?id=ITI232">Software Testing & Quality Assurance I</a></li>
+                                                <li><a href="../course.html?id=ITI233">Software Testing & Quality Assurance II</a></li>
                                             </ul>
                                         </p>
                                     </div>

@@ -92,23 +92,6 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="../pages/info/contract-training.html">Contract Training</a></li>
                                 <li><a href="../pages/info/become-an-instructor.html">Become an Instructor</a></li>
-                                <li class="dropdown cartmenu searchmenu hasmenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
-                                    <ul class="dropdown-menu show-right">
-                                        <li><!----====== drop down search bar ======------>
-                                            <div id="custom-search-input">
-                                                <div class="input-group col-md-12">
-                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." />
-                                                    <span class="input-group-btn">
-                                                        <button class="btn btn-primary btn-lg" type="button">
-                                                            <i class="fa fa-search"></i>
-                                                        </button>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </li><!----====== drop down search bar ======------>
-                                    </ul>
-                                </li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
@@ -143,17 +126,18 @@
                     <div class="col-md-10 col-sm-12 col-md-offset-1">
                         <div class="custom-form clearfix">
                             <div class="big-title">
-                                <h2 class="related-title large">
+                                <h2 class="related-title large" >
                                     <span>Course list</span><!--section title -->
                                 </h2>
+                                <h4 id=subtitle></h4>
                             </div><!-- end big-title -->
                             <div class="loginform" id="course-list">
-                                <form class="row">
+                                <form class="row"  role="search" method="get" action="../pages/courses.html" >
                                     <div class="col-md-12">
                                     <div >
-                                    <input type="text" class="live-search-box form-control" placeholder="Type here to search for a course..."/><!-- search box -->
-                                    <ul class="live-search-list"><!--course list -->
-                                        <p>Course list not available.</p>
+                                    <input type="text" class="live-search-box form-control" placeholder="Type here to search for a course..." name="search" id="input-box"/><!-- search box -->
+                                    <ul id="courses"><!--course list -->
+                                       <p>No courses available</p>
                                     </ul><!-- end course list -->
                                   </div>    
                                 </form> 
@@ -235,10 +219,25 @@
     <!--be sure to add class="live-search-box" to the search box -->
     <!--be sure to add class="live-search-list" to the ul -->
         
-        <script type="text/javascript">
+    <script type="text/javascript">
         (function(){
             // Read a page's GET URL variables and return them as an associative array.
-
+            function getUrlVars()
+            {
+                var vars = [], hash;
+                var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+                for(var i = 0; i < hashes.length; i++)
+                {
+                    hash = hashes[i].split('=');
+                    vars.push(hash[0]);
+                    vars[hash[0]] = hash[1];
+                }
+                return vars;
+            }
+            
+            
+            //console.log(getUrlVars()["search"]);
+                      
             var myCourses = {
                 Models : {},
                 Collections : {},
@@ -281,7 +280,7 @@
             // Collection view
             myCourses.Views.course = Backbone.View.extend({
 
-                el: $(".live-search-list"),
+                el: $("#courses"),
 
                 initialize: function () {
                     this.template = _.template($("#courseTemplate").html());
@@ -292,14 +291,40 @@
                     //other logic
                 },
                 render: function (link) {
-                    //var num = parseInt(getUrlVars()["id"]);
                     if (typeof this.collection !== "undefined") {
-                        //if (IsInteger(num)) {
                             var theseCourses = this.collection;
                             this.$el.html(this.template({
                                 courses: theseCourses.toJSON()
                             }));
-                        //}
+                        
+                        //getting search term from url
+                        var term = getUrlVars()["search"];
+                        
+                        //checking if the user has searched for anything
+                        if (term == null || term==""){
+                            //do nothing if there is a search term
+                        } else{
+                            //put the search term in the search box
+                            document.getElementById("input-box").setAttribute('value', term);
+                            document.getElementById("subtitle").innerHTML = 'Searching for... "' + term + '"';
+                        }
+                        
+                        
+                        var count_visible = 0;
+                        //filtering the list by the search term
+                        $('#courses li').each(function(){
+                            var content= this.innerText.toLowerCase();
+                            if (content.indexOf(term)>-1 || (term.length< 1)){
+                                  $(this).show();
+                                    count_visible +=1;
+                                } else {
+                                  $(this).hide();
+                                };
+                        });
+                        //check if no results are displayed
+                        if (count_visible == 0){
+                            document.getElementById("courses").innerHTML = 'None of our courses match those terms';
+                        }
                     }
                     return this;
                 }
@@ -309,6 +334,7 @@
             var coursesView = new myCourses.Views.course ({ collection : coursesCollection });
 
             coursesView.render();
+            
 
         })();
 
@@ -316,18 +342,19 @@
         
      <script>
        jQuery(document).ready(function($){
-        $('.live-search-list li').each(function(){
+        $('#courses li').each(function(){
             $(this).attr('data-search-term', $(this).text().toLowerCase());
         });
         $('.live-search-box').on('keyup', function(){
         var searchTerm = $(this).val().toLowerCase();
-            $('.live-search-list li').each(function(){
-                if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
-                    $(this).show();
+        $('#courses li').each(function(){
+        var content= this.innerText.toLowerCase();
+            if (content.indexOf(searchTerm)>-1 || (searchTerm.length< 1)){
+                  $(this).show();
                 } else {
-                    $(this).hide();
-                }
-            });
+                  $(this).hide();
+            }
+        });
         });
         });
     </script>

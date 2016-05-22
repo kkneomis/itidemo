@@ -98,9 +98,10 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
                                     <ul class="dropdown-menu show-right">
                                         <li><!----====== drop down search bar ======------>
+                                            <form role="search" method="get" id="searchform"  action="../pages/courses.html">
                                             <div id="custom-search-input">
                                                 <div class="input-group col-md-12">
-                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." />
+                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." name="search"/>
                                                     <span class="input-group-btn">
                                                         <button class="btn btn-primary btn-lg" type="button">
                                                             <i class="fa fa-search"></i>
@@ -108,6 +109,7 @@
                                                     </span>
                                                 </div>
                                             </div>
+                                        </form>
                                         </li><!----====== drop down search bar ======------>
                                     </ul>
                                 </li>
@@ -203,7 +205,7 @@
                 <td><%= section.start%> to <%= section.end%></td>
                 <td><%= section.sessions %></td>
                 <td><%= section.instructors %></td>
-                <td><input type="submit" value="Register" class="btn btn-primary btn-block" /></td>
+                <td><a href="http://aceitoc.montgomerycollege.edu/course/courselistings.aspx" class="btn btn-primary btn-block" target="_blank">Register<a/></td>
             </tr>
             <% }); %>
         </script>
@@ -259,7 +261,7 @@
                         <th></th>
                     </tr>
                     <tbody id="sectionsList">
-                    <tr><td>There are no available sections of this course this semester.</td></tr>
+                        <td>There are no available sections of this course this semester.</td>
                     </tbody>
                 </table>
                 <br /><br />
@@ -561,11 +563,14 @@
                     if (typeof this.collection !== "undefined") {
                         //if (IsInteger(num)) {
                             var theseSections = this.collection.byCourse(num);
+                            if (theseSections.length == 0){
+                                 this.$el.html("<td>There are no available sections of this course this semester.</td>");
+                            } else {
                             this.$el.html(this.template({
                                 sections: theseSections.toJSON()
                             }));
-                        //}
-                    }
+                            }
+                    } 
                     return this;
                 }
             });

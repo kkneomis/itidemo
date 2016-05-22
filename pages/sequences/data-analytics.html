@@ -98,16 +98,18 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
                                     <ul class="dropdown-menu show-right">
                                         <li><!----====== drop down search bar ======------>
-                                            <div id="custom-search-input">
-                                                <div class="input-group col-md-12">
-                                                    <input type="text" class="form-control input-lg" placeholder="Search here..." />
-                                                    <span class="input-group-btn">
-                                                        <button class="btn btn-primary btn-lg" type="button">
-                                                            <i class="fa fa-search"></i>
-                                                        </button>
-                                                    </span>
+                                            <form role="search" method="get" id="searchform"  action="../courses.html">
+                                                <div id="custom-search-input">
+                                                    <div class="input-group col-md-12">
+                                                        <input type="text" class="form-control input-lg" placeholder="Search here..." name="search"/>
+                                                        <span class="input-group-btn">
+                                                            <button class="btn btn-primary btn-lg" type="submit">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </form>
                                         </li><!----====== drop down search bar ======------>
                                     </ul>
                                 </li>
@@ -134,7 +136,6 @@
 
 
         <section class="section bgw">
-            
             <div class="container">
                 <div class="row">
                      
@@ -145,9 +146,8 @@
                                     <span style="font-size:25px">Curriculum</span>
                                 </h2>
                             </div><!-- end big-title -->
-                             <!------- sequence description---------------->
-                        </div><!------- end sequence description---------------->
-                    <!---==================================== Begin Second Accordion -==========================-------->
+                        </div>
+                    <!---==================================== Begin Accordion -==========================-------->
                           <div class="panel-group first-accordion withicon" id="accordion2">
                             <div class="panel panel-default"><!--------- start panel ---------->
                                 <div class="panel-heading">
@@ -161,16 +161,18 @@
                                         <p>
                                             <strong>Courses:</strong>
                                             <ul class="check">
-                                                <li><a href="#" target="_blank">MS Excel – Level I, II, & III</a></li>
-                                                <li><a href="#" target="_blank">Data Analysis with Excel</a></li>
-                                                <li><a href="#" target="_blank">Data Analysis with Python</a></li>
+                                                <li><a href="../course.html?id=ITI080">MS Excel – Level I</a></li>
+                                                <li><a href="../course.html?id=ITI091">MS Excel – Level II</a></li>
+                                                <li><a href="../course.html?id=ITI092">MS Excel – Level III</a></li>
+                                                <li><a href="../course.html?id=ITI257">Data Analysis with Excel</a></li>
+                                                <li><a href="../course.html?id=ITI247">Data Analysis with Python</a></li>
                                             </ul>
                                         </p>
                                     </div>
                                 </div>
                             </div><!-------end panel ---------------->
                         </div>  
-                        <!---=================================end Second Accordion -==========================-------->
+                        <!---=================================end Accordion -==========================-------->
                     </div><!-- end col -->
                   <!---====================================Begin Sidebar -==========================-------->  
                     <div id="sidebar" class="col-md-4 col-sm-12">
